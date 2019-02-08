@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\ObjModels">
+      <UniqueIdentifier>{eb0b95d5-f95c-4b0e-81b2-1b82cb6ce136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LandTable">
+      <UniqueIdentifier>{4f867a0c-3069-48ea-a17e-96595409694f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{f7bd6a56-20c0-4418-be52-0d3444a1bfe9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -20,6 +29,30 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjModels\Foliage.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
+    <ClInclude Include="LandTable\Act1.h">
+      <Filter>Header Files\LandTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscFiles\TexLists.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="LandTable\Act2.h">
+      <Filter>Header Files\LandTable</Filter>
+    </ClInclude>
+    <ClInclude Include="LandTable\Act3.h">
+      <Filter>Header Files\LandTable</Filter>
+    </ClInclude>
+    <ClInclude Include="LandTable\Skybox_Objects.h">
+      <Filter>Header Files\LandTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscFiles\PathInfo.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscFiles\StartPos.h">
+      <Filter>Header Files\Misc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

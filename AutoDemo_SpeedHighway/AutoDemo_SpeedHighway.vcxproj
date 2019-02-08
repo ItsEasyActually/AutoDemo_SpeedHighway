@@ -148,6 +148,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LandTable\Act1.h" />
+    <ClInclude Include="LandTable\Act2.h" />
+    <ClInclude Include="LandTable\Act3.h" />
+    <ClInclude Include="LandTable\Skybox_Objects.h" />
+    <ClInclude Include="MiscFiles\PathInfo.h" />
+    <ClInclude Include="MiscFiles\StartPos.h" />
+    <ClInclude Include="MiscFiles\TexLists.h" />
+    <ClInclude Include="ObjModels\Foliage.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
