@@ -155,7 +155,15 @@
     <ClInclude Include="MiscFiles\PathInfo.h" />
     <ClInclude Include="MiscFiles\StartPos.h" />
     <ClInclude Include="MiscFiles\TexLists.h" />
+    <ClInclude Include="ObjModels\Billboards.h" />
     <ClInclude Include="ObjModels\Foliage.h" />
+    <ClInclude Include="ObjModels\Fountain.h" />
+    <ClInclude Include="ObjModels\Helicopter.h" />
+    <ClInclude Include="ObjModels\Lamps.h" />
+    <ClInclude Include="ObjModels\MiscObjs.h" />
+    <ClInclude Include="ObjModels\Platforms.h" />
+    <ClInclude Include="ObjModels\Vehicles.h" />
+    <ClInclude Include="ObjModels\WaterTanks.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

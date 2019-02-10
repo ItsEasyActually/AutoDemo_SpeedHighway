@@ -54,6 +54,30 @@
     <ClInclude Include="MiscFiles\StartPos.h">
       <Filter>Header Files\Misc</Filter>
     </ClInclude>
+    <ClInclude Include="ObjModels\Lamps.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjModels\Billboards.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjModels\MiscObjs.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjModels\Vehicles.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjModels\WaterTanks.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjModels\Platforms.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjModels\Fountain.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjModels\Helicopter.h">
+      <Filter>Header Files\ObjModels</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
