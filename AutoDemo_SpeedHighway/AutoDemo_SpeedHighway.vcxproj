@@ -177,6 +177,25 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Binaries\mod.ini" />
+    <None Include="Binaries\PL\PL_40B.BIN" />
+    <None Include="Binaries\PL\PL_41B.BIN" />
+    <None Include="Binaries\PVM\BG_HIGHWAY.PVM" />
+    <None Include="Binaries\PVM\BG_HIGHWAY01.PVM" />
+    <None Include="Binaries\PVM\BG_HIGHWAY02.PVM" />
+    <None Include="Binaries\PVM\BG_HIGHWAY03.PVM" />
+    <None Include="Binaries\PVM\HIGHWAY01.pvm" />
+    <None Include="Binaries\PVM\HIGHWAY02.pvm" />
+    <None Include="Binaries\PVM\HIGHWAY03.pvm" />
+    <None Include="Binaries\PVM\HIGHWAY_CAR.pvm" />
+    <None Include="Binaries\PVM\OBJ_HIGHWAY.pvm" />
+    <None Include="Binaries\PVM\OBJ_HIGHWAY2.PVM" />
+    <None Include="Binaries\SET\SET0400S.BIN" />
+    <None Include="Binaries\SET\SET0401S.BIN" />
+    <None Include="Binaries\SET\SET0402K.bin" />
+    <None Include="Binaries\SET\SET0402S.BIN" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
