@@ -45,7 +45,7 @@ Loop PathList_SpeedHighway0_0_Entries[] = {
 	{ 0, 0xFB57, 0, { 1127.906f, -1139.242f, 277.0839f } }
 };
 
-LoopHead PathList_SpeedHighway0_0 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_0_Entries), 895.4772f, PathList_SpeedHighway0_0_Entries, (ObjectFuncPtr)0x8C05ACB2 };
+LoopHead PathList_SpeedHighway0_0 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_0_Entries), 895.4772f, PathList_SpeedHighway0_0_Entries, (ObjectFuncPtr)0x004BB1F0 };
 
 Loop PathList_SpeedHighway0_1_Entries[] = {
 	{ 0xE404, 0xF820, 0.759416f, { 2129.93f, -1288.583f, 3597.427f } },
@@ -120,7 +120,7 @@ Loop PathList_SpeedHighway0_1_Entries[] = {
 	{ 0xC34, 0xFA63, 0, { 3310.669f, -1404.462f, 3736.649f } }
 };
 
-LoopHead PathList_SpeedHighway0_1 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_1_Entries), 1395.494f, PathList_SpeedHighway0_1_Entries, (ObjectFuncPtr)0x8C05ACB2 };
+LoopHead PathList_SpeedHighway0_1 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_1_Entries), 1395.494f, PathList_SpeedHighway0_1_Entries, (ObjectFuncPtr)0x004BB1F0 };
 
 Loop PathList_SpeedHighway0_2_Entries[] = {
 	{ 0xAAF, 0xE2B4, 6.960056f, { 3063.106f, -1138.62f, -8.9569f } },
@@ -140,7 +140,7 @@ Loop PathList_SpeedHighway0_2_Entries[] = {
 	{ 0x3AC8, 0xC1A1, 0, { 3390, -1046.949f, -285 } }
 };
 
-LoopHead PathList_SpeedHighway0_2 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_2_Entries), 477.1089f, PathList_SpeedHighway0_2_Entries, (ObjectFuncPtr)0x8C05ACB2 };
+LoopHead PathList_SpeedHighway0_2 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_2_Entries), 477.1089f, PathList_SpeedHighway0_2_Entries, (ObjectFuncPtr)0x004BB1F0 };
 
 Loop PathList_SpeedHighway0_3_Entries[] = {
 	{ 0xD78B, 0xC35F, 4.280845f, { 3309.172f, -1284.929f, 1412.711f } },
@@ -326,7 +326,7 @@ Loop PathList_SpeedHighway0_3_Entries[] = {
 	{ 0xF282, 0xDA54, 0, { 3309.172f, -1284.929f, 1412.711f } }
 };
 
-LoopHead PathList_SpeedHighway0_3 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_3_Entries), 2242.728f, PathList_SpeedHighway0_3_Entries, (ObjectFuncPtr)0xC903812 };
+LoopHead PathList_SpeedHighway0_3 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_3_Entries), 2242.728f, PathList_SpeedHighway0_3_Entries, (ObjectFuncPtr)0x00613ED0 };
 
 Loop PathList_SpeedHighway0_4_Entries[] = {
 	{ 0x23, 0xEDB3, 1.038627f, { 1576.222f, -1163.73f, 307.9041f } },
@@ -368,7 +368,7 @@ Loop PathList_SpeedHighway0_4_Entries[] = {
 	{ 0xDF23, 0x191C, 0, { 2121.172f, -1314.741f, 639.9993f } }
 };
 
-LoopHead PathList_SpeedHighway0_4 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_4_Entries), 842.2321f, PathList_SpeedHighway0_4_Entries, (ObjectFuncPtr)0xC90EC60 };
+LoopHead PathList_SpeedHighway0_4 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_4_Entries), 842.2321f, PathList_SpeedHighway0_4_Entries, (ObjectFuncPtr)0x006133E0 };
 
 Loop PathList_SpeedHighway0_5_Entries[] = {
 	{ 0xFEF0, 0, 0.541187f, { 5182.758f, -1200.944f, -120 } },
@@ -462,7 +462,7 @@ Loop PathList_SpeedHighway0_5_Entries[] = {
 	{ 0x8D, 0xFF23, 0, { 5132.057f, -1781.001f, 1016.885f } }
 };
 
-LoopHead PathList_SpeedHighway0_5 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_5_Entries), 2154.173f, PathList_SpeedHighway0_5_Entries, (ObjectFuncPtr)0xC90EC70 };
+LoopHead PathList_SpeedHighway0_5 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_5_Entries), 2154.173f, PathList_SpeedHighway0_5_Entries, (ObjectFuncPtr)0x00613400 };
 
 Loop PathList_SpeedHighway0_6_Entries[] = {
 	{ 0x78, 0, 0.508095f, { 1889.999f, -1094.001f, 3072 } },
@@ -558,7 +558,7 @@ Loop PathList_SpeedHighway0_6_Entries[] = {
 	{ 0x1E8, 0x2F54, 0, { 3744.6f, -1292, 3732.379f } }
 };
 
-LoopHead PathList_SpeedHighway0_6 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_6_Entries), 2409.325f, PathList_SpeedHighway0_6_Entries, (ObjectFuncPtr)0xC90EC80 };
+LoopHead PathList_SpeedHighway0_6 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_6_Entries), 2409.325f, PathList_SpeedHighway0_6_Entries, (ObjectFuncPtr)0x00613420 };
 
 Loop PathList_SpeedHighway0_7_Entries[] = {
 	{ 0, 0xFFF6, 39.81693f, { -364.3634f, 20.9199f, 5.9357f } },
@@ -600,7 +600,7 @@ Loop PathList_SpeedHighway0_7_Entries[] = {
 	{ 0x530, 0xE733, 0, { 974.4055f, -1091.799f, 68.1121f } }
 };
 
-LoopHead PathList_SpeedHighway0_7 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_7_Entries), 1950.4f, PathList_SpeedHighway0_7_Entries, (ObjectFuncPtr)0xC90EC90 };
+LoopHead PathList_SpeedHighway0_7 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_7_Entries), 1950.4f, PathList_SpeedHighway0_7_Entries, (ObjectFuncPtr)0x00613440 };
 
 Loop PathList_SpeedHighway0_8_Entries[] = {
 	{ 0, 0, 7.440673f, { 4191.942f, -814.4473f, -265.4648f } },
@@ -768,7 +768,7 @@ Loop PathList_SpeedHighway0_8_Entries[] = {
 	{ 0x967, 0xF28B, 0, { 5143.807f, -1672.57f, 1026.484f } }
 };
 
-LoopHead PathList_SpeedHighway0_8 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_8_Entries), 3712.277f, PathList_SpeedHighway0_8_Entries, (ObjectFuncPtr)0xC90ECA0 };
+LoopHead PathList_SpeedHighway0_8 = { 0, LengthOfArray<int16_t>(PathList_SpeedHighway0_8_Entries), 3712.277f, PathList_SpeedHighway0_8_Entries, (ObjectFuncPtr)0x00613460 };
 
 LoopHead *PathList_SpeedHighway0[] = {
 	&PathList_SpeedHighway0_0,
@@ -1159,7 +1159,7 @@ Loop PathList_SpeedHighway2_1_Entries[] = {
 	{ 6, 0x879, 0.748561f, { -1499.266f, -192.8454f, -1435 } }
 };
 
-LoopHead PathList_SpeedHighway2_1 = { 1, LengthOfArray<int16_t>(PathList_SpeedHighway2_1_Entries), 8325.798f, PathList_SpeedHighway2_1_Entries, (ObjectFuncPtr)0xC9044A0 };
+LoopHead PathList_SpeedHighway2_1 = { 1, LengthOfArray<int16_t>(PathList_SpeedHighway2_1_Entries), 8325.798f, PathList_SpeedHighway2_1_Entries, (ObjectFuncPtr)0x00612240 };
 
 LoopHead *PathList_SpeedHighway2[] = {
 	&PathList_SpeedHighway2_0,
