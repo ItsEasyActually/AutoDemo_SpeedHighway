@@ -1,5 +1,4 @@
 #include <SADXModLoader.h>
-#include "MiscFiles\TexLists.h"
 
 NJS_MATERIAL matlist_000181D8[] = {
 	{ { 0xFFB2B2B2 }, { 0xFFFFFFFF }, 11, 1, NJD_D_100 | NJD_FILTER_BILINEAR | NJD_FLAG_USE_TEXTURE | NJD_FLAG_IGNORE_LIGHT | NJD_DA_INV_SRC | NJD_SA_SRC },

@@ -51,9 +51,6 @@
     <ClInclude Include="LandTable\Act1.h">
       <Filter>Header Files\LandTable</Filter>
     </ClInclude>
-    <ClInclude Include="MiscFiles\TexLists.h">
-      <Filter>Header Files\Misc</Filter>
-    </ClInclude>
     <ClInclude Include="LandTable\Act2.h">
       <Filter>Header Files\LandTable</Filter>
     </ClInclude>
