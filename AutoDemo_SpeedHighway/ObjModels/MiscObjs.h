@@ -198,6 +198,15 @@ NJS_MODEL_SADX attach_00188284 = { vertex_00187F84, normal_00188104, LengthOfArr
 
 NJS_OBJECT O_Antena_AD = { NJD_EVAL_UNIT_POS | NJD_EVAL_UNIT_ANG | NJD_EVAL_UNIT_SCL | NJD_EVAL_BREAK, &attach_00188284, 0, 0, 0, 0, 0, 0, 1, 1, 1, NULL, NULL };
 
+CollisionData RadioTower_Collision[] = {
+	{ 0, 2, 0x77, 0, 0,   0.0, 10.0, 0.0,    8.0, 11.0, 0.0,    0 },
+	{ 0, 2, 0x77, 0, 0,   0.0, 32.0, 0.0,    7.0, 11.0, 0.0,    0 },
+	{ 0, 2, 0x77, 0, 0,   0.0, 54.0, 0.0,    6.0, 11.0, 0.0,    0 },
+	{ 0, 2, 0x77, 0, 0,   0.0, 76.0, 0.0,    0.5, 12.0, 0.0,    0 },
+	{ 0, 3, 0x77, 0, 0,   0.0, 40.0, -9.0,   8.0, 8.0, 1.0,     0 },
+	{ 0, 3, 0x77, 0, 0,   0.0, 56.0, -9.0,   6.0, 6.0, 1.0,     0 }
+};
+
 NJS_MATERIAL matlist_00179DA0[] = {
 	{ { 0xFFB2B2B2 }, { 0xFFFFFFFF }, 11, 91, NJD_D_100 | NJD_FILTER_BILINEAR | NJD_FLAG_CLAMP_V | NJD_FLAG_CLAMP_U | NJD_FLAG_IGNORE_SPECULAR | NJD_FLAG_USE_TEXTURE | NJD_FLAG_USE_ENV | NJD_DA_INV_SRC | NJD_SA_SRC },
 	{ { 0xFFB2B2B2 }, { 0xFFFFFFFF }, 11, 93, NJD_D_100 | NJD_FILTER_BILINEAR | NJD_FLAG_CLAMP_V | NJD_FLAG_CLAMP_U | NJD_FLAG_IGNORE_SPECULAR | NJD_FLAG_USE_TEXTURE | NJD_FLAG_USE_ENV | NJD_DA_INV_SRC | NJD_SA_SRC },
@@ -2611,6 +2620,10 @@ NJS_VECTOR normal_00179BC4[] = {
 NJS_MODEL_SADX attach_00179D44 = { vertex_00179A44, normal_00179BC4, LengthOfArray<Sint32>(vertex_00179A44), meshlist_001799E4, matlist_001796B0, LengthOfArray<Uint16>(meshlist_001799E4), LengthOfArray<Uint16>(matlist_001796B0), { 0, 5.484882f, 0.05f }, 6.237937f, NULL };
 
 NJS_OBJECT O_Nbox_4_AD = { NJD_EVAL_UNIT_POS | NJD_EVAL_UNIT_ANG | NJD_EVAL_UNIT_SCL, &attach_00179D44, 0, 0, 0, 0, 0, 0, 1, 1, 1, &object_0017967C, NULL };
+
+CollisionData Nbox_Collision[] = {
+	{ 0, 3, 0x77, 0, 0,   0.0, 0.0, 0.0,    4.0, 10.0, 4.0,   0, 0, 0,   0 }
+};
 
 NJS_MATERIAL matlist_001882E0[] = {
 	{ { 0xFFB2B2B2 }, { 0xFFFFFFFF }, 11, 25, NJD_D_100 | NJD_FILTER_BILINEAR | NJD_FLAG_CLAMP_V | NJD_FLAG_CLAMP_U | NJD_FLAG_IGNORE_SPECULAR | NJD_FLAG_USE_TEXTURE | NJD_DA_INV_SRC | NJD_SA_SRC },
