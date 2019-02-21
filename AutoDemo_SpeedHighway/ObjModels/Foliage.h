@@ -2451,3 +2451,93 @@ NJS_MODEL_SADX attach_0018A638 = { vertex_0018A3F8, normal_0018A518, LengthOfArr
 
 NJS_OBJECT O_SIBA01_AD = { NJD_EVAL_UNIT_ANG | NJD_EVAL_UNIT_SCL, &attach_0018A638, 0.000013f, 0.000035f, 0.09999999f, 0, 0, 0, 1, 1, 1, &object_0018A194, NULL };
 
+NJS_MATERIAL matlist_custom[] = {
+	{ { 0xFFB2B2B2 }, { 0xFFFFFFFF }, 11, 115, NJD_D_100 | NJD_FILTER_BILINEAR | NJD_FLAG_CLAMP_V | NJD_FLAG_IGNORE_SPECULAR | NJD_FLAG_USE_TEXTURE | NJD_DA_INV_SRC | NJD_SA_SRC },
+	{ { 0xFFB2B2B2 }, { 0xFFFFFFFF }, 11, 112, NJD_D_100 | NJD_FILTER_BILINEAR | NJD_FLAG_IGNORE_SPECULAR | NJD_FLAG_USE_TEXTURE | NJD_DA_INV_SRC | NJD_SA_SRC }
+};
+
+Sint16 poly_custom[] = {
+	3, 20, 16, 18,
+	3, 1, 2, 15,
+	0x8000u | 6, 15, 17, 2, 18, 21, 20,
+	4, 15, 16, 1, 20
+};
+//1, 2, 5, 15, 16, 17, 18, 20, 21
+Sint16 poly_custom2[] = {
+	3, 5, 17, 18,
+	3, 5, 16, 15,
+	3, 18, 16, 5,
+	3, 15, 17, 5
+};
+
+NJS_TEX uv_custom[] = {
+	{ 3825, 254 },
+	{ 3825, 7 },
+	{ 2289, 7 },
+	{ 0, 255 },
+	{ 1529, 255 },
+	{ 0, 7 },
+	{ 0, 7 },
+	{ 1535, 7 },
+	{ 1529, 255 },
+	{ 2289, 7 },
+	{ 2295, 255 },
+	{ 3825, 254 },
+	{ 2289, 7 },
+	{ 1535, 7 },
+	{ 2295, 255 },
+	{ 1529, 255 }
+};
+
+NJS_TEX uv_custom2[] = {
+	{ 382, -250 },
+	{ 1, 255 },
+	{ 765, 254 },
+	{ 382, -250 },
+	{ 1, 255 },
+	{ 765, 254 },
+
+	{ 6, 252 },
+	{ 1525, 252 },
+	{ 741, -249 },
+
+	{ 6, 252 },
+	{ 1525, 252 },
+	{ 741, -249 }
+};
+
+NJS_MESHSET_SADX meshlist_custom[] = {
+	{ NJD_MESHSET_TRIMESH | 0, 4, poly_custom, NULL, NULL, NULL, uv_custom, NULL },
+	{ NJD_MESHSET_TRIMESH | 1, 4, poly_custom2, NULL, NULL, NULL, uv_custom2, NULL }
+};
+
+NJS_VECTOR vertex_custom[] = {
+	{ -30, 0, 5.000244f }, //0
+	{ -10, 0, 5.000244f },//middle	1
+	{ 10, 0, 5.000244f },//middle	2
+	{ 30, 0, 5.000244f },
+	{ -20, 3.5f, 0.000183f },
+	{ 0, 2, 0.000183f }, //top middle	5
+	{ 20, 3.5f, 0.000183f },
+	{ 12, 1.968879f, 3.94193f },
+	{ 12, 1.968909f, -3.941528f },
+	{ 28, 1.968879f, 3.94193f },
+	{ 28, 1.968909f, -3.941528f }, //10
+	{ -28, 1.968879f, 3.94193f },
+	{ -28, 1.968909f, -3.941528f },
+	{ -12, 1.968879f, 3.94193f },
+	{ -12, 1.968909f, -3.941528f },
+	{ -8, 1.968879f, 3.94193f }, //middle	15
+	{ -8, 1.968909f, -3.941528f }, //midle	16
+	{ 8, 1.968879f, 3.94193f }, //middle	17
+	{ 8, 1.968909f, -3.941528f },//middle	18
+	{ -30, 0, -4.999756f },
+	{ -10, 0, -4.999756f }, //20 middle
+	{ 10, 0, -4.999756f },//middle	21
+	{ 30, 0, -4.999756f }
+};
+
+NJS_MODEL_SADX attach_custom = { vertex_custom, normal_0018C098, LengthOfArray<Sint32>(vertex_custom), meshlist_custom, matlist_custom, LengthOfArray<Uint16>(meshlist_custom), LengthOfArray<Uint16>(matlist_custom), { 0, 1.75f, 0.000244f }, 30.41381f, NULL };
+
+NJS_OBJECT O_GREENF_AD = { NJD_EVAL_UNIT_POS | NJD_EVAL_UNIT_ANG | NJD_EVAL_UNIT_SCL | NJD_EVAL_BREAK, &attach_custom, 0, 0, 0, 0, 0, 0, 1, 1, 1, NULL, NULL };
+//Custom model for removed object, possible called GREENF
