@@ -119,7 +119,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;AUTODEMOSPEEDHIGHWAY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;AUTODEMOSPEEDHIGHWAY_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)sadx-mod-loader\SADXModLoader\include;$(SolutionDir)sadx-mod-loader\mod-loader-common\ModLoaderCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -168,6 +168,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\sadx-mod-loader\mod-loader-common\ModLoaderCommon\IniFile.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\sadx-mod-loader\mod-loader-common\ModLoaderCommon\TextConv.cpp" />
     <ClCompile Include="AutoDemo_SpeedHighway.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -178,23 +182,37 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Binaries\CAM\CAM0400S_Orig.bin" />
+    <None Include="Binaries\CAM\CAM0401S_Orig.bin" />
+    <None Include="Binaries\CAM\CAM0402K_AD.bin" />
+    <None Include="Binaries\CAM\CAM0402K_Orig.BIN" />
+    <None Include="Binaries\CAM\CAM0402S_AD.bin" />
+    <None Include="Binaries\CAM\CAM0402S_Orig.bin" />
     <None Include="Binaries\mod.ini" />
     <None Include="Binaries\PL\PL_40B.BIN" />
     <None Include="Binaries\PL\PL_41B.BIN" />
-    <None Include="Binaries\PVM\BG_HIGHWAY.PVM" />
-    <None Include="Binaries\PVM\BG_HIGHWAY01.PVM" />
-    <None Include="Binaries\PVM\BG_HIGHWAY02.PVM" />
-    <None Include="Binaries\PVM\BG_HIGHWAY03.PVM" />
-    <None Include="Binaries\PVM\HIGHWAY01.pvm" />
-    <None Include="Binaries\PVM\HIGHWAY02.pvm" />
-    <None Include="Binaries\PVM\HIGHWAY03.pvm" />
-    <None Include="Binaries\PVM\HIGHWAY_CAR.pvm" />
-    <None Include="Binaries\PVM\OBJ_HIGHWAY.pvm" />
-    <None Include="Binaries\PVM\OBJ_HIGHWAY2.PVM" />
-    <None Include="Binaries\SET\SET0400S.BIN" />
-    <None Include="Binaries\SET\SET0401S.BIN" />
-    <None Include="Binaries\SET\SET0402K.bin" />
-    <None Include="Binaries\SET\SET0402S.BIN" />
+    <None Include="Binaries\PVM\BG_HIGHWAY01_AD.PVM" />
+    <None Include="Binaries\PVM\BG_HIGHWAY02_AD.PVM" />
+    <None Include="Binaries\PVM\BG_HIGHWAY03_AD.PVM" />
+    <None Include="Binaries\PVM\BG_HIGHWAY_AD.PVM" />
+    <None Include="Binaries\PVM\HIGHWAY01_AD.pvm" />
+    <None Include="Binaries\PVM\HIGHWAY02_AD.pvm" />
+    <None Include="Binaries\PVM\HIGHWAY03_AD.pvm" />
+    <None Include="Binaries\PVM\HIGHWAY_CAR_AD.pvm" />
+    <None Include="Binaries\PVM\OBJ_HIGHWAY2_AD.PVM" />
+    <None Include="Binaries\PVM\OBJ_HIGHWAY_AD.pvm" />
+    <None Include="Binaries\SET\SET0400M_AD.bin" />
+    <None Include="Binaries\SET\SET0400S_AD.BIN" />
+    <None Include="Binaries\SET\SET0400S_Orig.BIN" />
+    <None Include="Binaries\SET\SET0401S_AD.BIN" />
+    <None Include="Binaries\SET\SET0401S_Orig.BIN" />
+    <None Include="Binaries\SET\SET0402K_AD.bin" />
+    <None Include="Binaries\SET\SET0402K_Orig.bin" />
+    <None Include="Binaries\SET\SET0402S_AD.bin" />
+    <None Include="Binaries\SET\SET0402S_Orig.BIN" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Binaries\configschema.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

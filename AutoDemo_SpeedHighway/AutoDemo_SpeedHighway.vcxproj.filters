@@ -37,6 +37,9 @@
     <Filter Include="Source Files\Binaries\PVM">
       <UniqueIdentifier>{e4ab2db7-db65-4a8b-99a4-c5d89e085f24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{3ce31231-d0e5-4264-b6c5-ddf512fc94b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -101,40 +104,16 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\sadx-mod-loader\mod-loader-common\ModLoaderCommon\IniFile.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sadx-mod-loader\mod-loader-common\ModLoaderCommon\TextConv.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Binaries\mod.ini">
       <Filter>Source Files\Binaries</Filter>
-    </None>
-    <None Include="Binaries\PVM\HIGHWAY_CAR.pvm">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\OBJ_HIGHWAY.pvm">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\OBJ_HIGHWAY2.PVM">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\HIGHWAY01.pvm">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\HIGHWAY03.pvm">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\HIGHWAY02.pvm">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\BG_HIGHWAY03.PVM">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\BG_HIGHWAY02.PVM">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\BG_HIGHWAY01.PVM">
-      <Filter>Source Files\Binaries\PVM</Filter>
-    </None>
-    <None Include="Binaries\PVM\BG_HIGHWAY.PVM">
-      <Filter>Source Files\Binaries\PVM</Filter>
     </None>
     <None Include="Binaries\PL\PL_40B.BIN">
       <Filter>Source Files\Binaries\PL</Filter>
@@ -142,17 +121,85 @@
     <None Include="Binaries\PL\PL_41B.BIN">
       <Filter>Source Files\Binaries\PL</Filter>
     </None>
-    <None Include="Binaries\SET\SET0401S.BIN">
+    <None Include="Binaries\CAM\CAM0402K_AD.bin">
+      <Filter>Source Files\Binaries\CAM</Filter>
+    </None>
+    <None Include="Binaries\CAM\CAM0402S_AD.bin">
+      <Filter>Source Files\Binaries\CAM</Filter>
+    </None>
+    <None Include="Binaries\CAM\CAM0400S_Orig.bin">
+      <Filter>Source Files\Binaries\CAM</Filter>
+    </None>
+    <None Include="Binaries\CAM\CAM0401S_Orig.bin">
+      <Filter>Source Files\Binaries\CAM</Filter>
+    </None>
+    <None Include="Binaries\CAM\CAM0402K_Orig.BIN">
+      <Filter>Source Files\Binaries\CAM</Filter>
+    </None>
+    <None Include="Binaries\CAM\CAM0402S_Orig.bin">
+      <Filter>Source Files\Binaries\CAM</Filter>
+    </None>
+    <None Include="Binaries\PVM\OBJ_HIGHWAY_AD.pvm">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\BG_HIGHWAY_AD.PVM">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\BG_HIGHWAY01_AD.PVM">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\BG_HIGHWAY02_AD.PVM">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\BG_HIGHWAY03_AD.PVM">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\HIGHWAY_CAR_AD.pvm">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\HIGHWAY01_AD.pvm">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\HIGHWAY02_AD.pvm">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\HIGHWAY03_AD.pvm">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\PVM\OBJ_HIGHWAY2_AD.PVM">
+      <Filter>Source Files\Binaries\PVM</Filter>
+    </None>
+    <None Include="Binaries\SET\SET0400M_AD.bin">
       <Filter>Source Files\Binaries\SET</Filter>
     </None>
-    <None Include="Binaries\SET\SET0402K.bin">
+    <None Include="Binaries\SET\SET0400S_AD.BIN">
       <Filter>Source Files\Binaries\SET</Filter>
     </None>
-    <None Include="Binaries\SET\SET0402S.BIN">
+    <None Include="Binaries\SET\SET0401S_AD.BIN">
       <Filter>Source Files\Binaries\SET</Filter>
     </None>
-    <None Include="Binaries\SET\SET0400S.BIN">
+    <None Include="Binaries\SET\SET0402K_AD.bin">
       <Filter>Source Files\Binaries\SET</Filter>
     </None>
+    <None Include="Binaries\SET\SET0402S_AD.bin">
+      <Filter>Source Files\Binaries\SET</Filter>
+    </None>
+    <None Include="Binaries\SET\SET0400S_Orig.BIN">
+      <Filter>Source Files\Binaries\SET</Filter>
+    </None>
+    <None Include="Binaries\SET\SET0401S_Orig.BIN">
+      <Filter>Source Files\Binaries\SET</Filter>
+    </None>
+    <None Include="Binaries\SET\SET0402K_Orig.bin">
+      <Filter>Source Files\Binaries\SET</Filter>
+    </None>
+    <None Include="Binaries\SET\SET0402S_Orig.BIN">
+      <Filter>Source Files\Binaries\SET</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Binaries\configschema.xml">
+      <Filter>Source Files\Binaries</Filter>
+    </Xml>
   </ItemGroup>
 </Project>
