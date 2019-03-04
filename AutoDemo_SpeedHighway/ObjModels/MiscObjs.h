@@ -206,7 +206,7 @@ NJS_MODEL_SADX attach_00188284 = { vertex_00187F84, normal_00188104, LengthOfArr
 NJS_MODEL_SADX attach_00188284_Z = { vertex_00187F84, normal_00188104, LengthOfArray<Sint32>(vertex_00187F84), meshlist_00187F0C_Z, matlist_00187D18_Z, LengthOfArray<Uint16>(meshlist_00187F0C_Z), LengthOfArray<Uint16>(matlist_00187D18_Z), { 0, 87.98202f, -5.130001f }, 89.22644f, NULL };
 
 NJS_OBJECT O_Antena_AD_Z = { NJD_EVAL_UNIT_POS | NJD_EVAL_UNIT_ANG | NJD_EVAL_UNIT_SCL | NJD_EVAL_BREAK, &attach_00188284_Z, 0, 0, 0, 0, 0, 0, 1, 1, 1, NULL, NULL };
-NJS_OBJECT O_Antena_AD = { NJD_EVAL_UNIT_POS | NJD_EVAL_UNIT_ANG | NJD_EVAL_UNIT_SCL | NJD_EVAL_BREAK, &attach_00188284, 0, 0, 0, 0, 0, 0, 1, 1, 1, NULL, &O_Antena_AD_Z };
+NJS_OBJECT O_Antena_AD = { NJD_EVAL_UNIT_POS | NJD_EVAL_UNIT_ANG | NJD_EVAL_UNIT_SCL | NJD_EVAL_BREAK, &attach_00188284, 0, 0, 0, 0, 0, 0, 1, 1, 1, NULL, NULL };
 
 CollisionData RadioTower_Collision[] = {
 	{ 0, 2, 0x77, 0, 0,   0.0, 10.0, 0.0,    8.0, 11.0, 0.0,    0 },
