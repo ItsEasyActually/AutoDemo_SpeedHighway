@@ -9313,7 +9313,7 @@ NJS_MDATA2 Bug_Rotation[] = {
 	{ NULL, NULL, 0, 0 },
 	{ NULL, NULL, 0, 0 },
 	{ NULL, NULL, 0, 0 },
-	{ NULL, Bug_WheelRot, 0, LengthOfArray<Uint32>(Bug_WheelRot) },
+	{ NULL, Bug_TireRot, 0, LengthOfArray<Uint32>(Bug_TireRot) },
 	{ NULL, Bug_TireRot, 0, LengthOfArray<Uint32>(Bug_TireRot) },
 	{ NULL, Bug_TireRot, 0, LengthOfArray<Uint32>(Bug_TireRot) },
 	{ NULL, Bug_TireRot, 0, LengthOfArray<Uint32>(Bug_TireRot) },
@@ -9322,9 +9322,9 @@ NJS_MDATA2 Bug_Rotation[] = {
 	{ NULL, NULL, 0, 0 },
 	{ NULL, NULL, 0, 0 },
 	{ NULL, Bug_WheelRot, 0, LengthOfArray<Uint32>(Bug_WheelRot) },
-	{ NULL, Bug_TireRot, 0, LengthOfArray<Uint32>(Bug_TireRot) },
-	{ NULL, Bug_TireRot, 0, LengthOfArray<Uint32>(Bug_TireRot) },
-	{ NULL, Bug_TireRot, 0, LengthOfArray<Uint32>(Bug_TireRot) }
+	{ NULL, Bug_WheelRot, 0, LengthOfArray<Uint32>(Bug_WheelRot) },
+	{ NULL, Bug_WheelRot, 0, LengthOfArray<Uint32>(Bug_WheelRot) },
+	{ NULL, Bug_WheelRot, 0, LengthOfArray<Uint32>(Bug_WheelRot) }
 };
 
 NJS_MOTION Bug_Action = { Bug_Rotation, 9, NJD_MTYPE_POS_0 | NJD_MTYPE_ANG_1, 2 };
@@ -9369,14 +9369,14 @@ NJS_MDATA2 BlueVan_Rotation[] = {
 	{ NULL, NULL, 0, 0 },
 	{ NULL, NULL, 0, 0 },
 	{ NULL, NULL, 0, 0 },
+	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
+	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
+	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
+	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
 	{ NULL, BlueVan_WheelRot, 0, LengthOfArray<Uint32>(BlueVan_WheelRot) },
-	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
-	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
-	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
 	{ NULL, BlueVan_WheelRot, 0, LengthOfArray<Uint32>(BlueVan_WheelRot) },
-	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
-	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
-	{ NULL, BlueVan_TireRot, 0, LengthOfArray<Uint32>(BlueVan_TireRot) },
+	{ NULL, BlueVan_WheelRot, 0, LengthOfArray<Uint32>(BlueVan_WheelRot) },
+	{ NULL, BlueVan_WheelRot, 0, LengthOfArray<Uint32>(BlueVan_WheelRot) },
 	{ NULL, NULL, 0, 0 }
 };
 
